@@ -154,16 +154,15 @@ gcp-autoscaling-security/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/gcp-autoscaling-security.git
-cd gcp-autoscaling-security
+git clone [https://github.com/your-username/gcp-autoscaling-security.git](https://github.com/Kirtiman-g25ai1024/VCC_Assignment2_VM_auto-scaling/tree/main)
 
 # 2. Make all scripts executable
 chmod +x scripts/*.sh
 
 # 3. Set your project ID in the environment
-export PROJECT_ID="your-gcp-project-id"
-export REGION="us-central1"
-export ZONE="us-central1-a"
+export PROJECT_ID="gcp-autoscaling-security"
+export REGION="asia-south1"
+export ZONE="asia-south1-a"
 
 # 4. Run scripts in order
 ./scripts/01_setup_environment.sh
