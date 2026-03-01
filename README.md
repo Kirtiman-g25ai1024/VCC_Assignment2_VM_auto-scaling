@@ -376,7 +376,7 @@ terraform destroy
 
 ## 🎬 Video Demo
 
-📽️ **Demo Link:** [[https://drive.google.com/drive/u/0/folders/1e_2BNwgAyveEqjsxBrWWjQZqNuy-C0fB](https://drive.google.com/drive/u/0/folders/1e_2BNwgAyveEqjsxBrWWjQZqNuy-C0fB)
+📽️ **Demo Link:** [https://drive.google.com/drive/u/0/folders/1e_2BNwgAyveEqjsxBrWWjQZqNuy-C0fB](https://drive.google.com/drive/u/0/folders/1e_2BNwgAyveEqjsxBrWWjQZqNuy-C0fB)
 
 > The demo covers: VM creation → MIG setup → Autoscaling policy → IAM config → Firewall rules → Live scaling test
 
