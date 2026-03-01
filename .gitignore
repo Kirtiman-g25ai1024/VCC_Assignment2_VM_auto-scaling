@@ -1,0 +1,32 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
+
+# GCP credentials — NEVER commit service account keys
+*.json
+*-credentials.json
+*-key.json
+service-account*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Env files
+.env
+.env.*
+!.env.example
