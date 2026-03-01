@@ -75,7 +75,7 @@ This project demonstrates a **production-grade, auto-scaling and secured cloud i
                                              │
                         ┌────────────────────▼────────────────────────┐
                         │      Managed Instance Group (MIG)            │
-                        │   web-mig  |  us-central1  |  min:2 max:10  │
+                        │   web-mig  |  asia-south1  |  min:2 max:10  │
                         │ ┌────────┐  ┌────────┐  ┌─────────────────┐ │
                         │ │  VM-1  │  │  VM-2  │  │  VM-N (scaled)  │ │
                         │ │Apache  │  │Apache  │  │     Apache      │ │
@@ -214,7 +214,7 @@ Key parameters:
 | Machine Type | `e2-medium` (2 vCPU, 4 GB RAM) |
 | OS | Debian GNU/Linux 11 (Bullseye) |
 | Boot Disk | 20 GB SSD |
-| Zone | `us-central1-a` |
+| Zone | `asia-south1-a` |
 | Tags | `http-server`, `https-server` |
 
 ---
@@ -270,9 +270,9 @@ Creates service accounts and binds IAM roles following **least-privilege**.
 |---|---|---|
 | `web-sa` (Service Account) | `roles/logging.logWriter` | VMs write logs |
 | `web-sa` (Service Account) | `roles/monitoring.metricWriter` | VMs write metrics |
-| `developer@example.com` | `roles/compute.viewer` | Read-only Compute access |
-| `admin@example.com` | `roles/compute.admin` | Full Compute management |
-| `devops-team@` | `roles/logging.viewer` | Log access for debugging |
+| `kirtimanpmec@gmail.com` | `roles/compute.viewer` | Read-only Compute access |
+| `kirtimandanger007@gmail.com` | `roles/compute.admin` | Full Compute management |
+| `sonalimohanty531@gmail.com` | `roles/logging.viewer` | Log access for debugging |
 
 ---
 
