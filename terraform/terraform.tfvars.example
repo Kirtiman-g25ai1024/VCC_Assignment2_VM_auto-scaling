@@ -1,8 +1,8 @@
 # NEVER commit terraform.tfvars to version control.
 
 project_id      = "auto-scaling-and-security"
-region          = "us-central1"
-zone            = "us-central1-a"
+region          = "asia-south1"
+zone            = "asia-south1-a"
 machine_type    = "e2-medium"
 developer_email = "kirtimanpmec@gmail.com"
 admin_email     = "kirtimandanger007@gmail.com"
